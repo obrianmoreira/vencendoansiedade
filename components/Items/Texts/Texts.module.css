@@ -9,15 +9,18 @@
 
     font-size: 80px;
     margin: 0px 0px 0px 0px;
+    color: black;
 
 }
 
 .h3Style{
     font-size: 35px;
+    color: black;
 }
 
 .h4Style{
     font-size: 28px;
+    color: black;
 }
 
 .h5Style {
@@ -27,6 +30,7 @@
 .pStyle{
     font-size: 16px;
     margin: 15px 0px 20px 0px;
+    color: black;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 576px) {
