@@ -1,0 +1,64 @@
+#wall {
+    background-color: aliceblue;
+    padding-top: 150px;
+    padding-bottom: 200px;
+}
+
+#frame {
+    padding-top: 30px;
+}
+
+#frameTwo {
+    flex-basis: 60%;
+}
+
+.image{
+    width: 100%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+    #wall {
+        gap: 0px;
+        display: block;
+        text-align: center;
+    }
+    
+    #frame {
+        padding-top: 0px;
+        text-align: center;
+        flex-basis: 100%;
+    }
+    
+    #frameTwo {
+        flex-basis: 60%;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    #wall {
+        gap: 0px;
+        display: block;
+    }
+    
+    #frame {
+        text-align: center;
+        padding-top: 0px;
+        flex-basis: 100%;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1440px) {
+    #wall {
+        gap: 0px;
+        display: block;
+        padding-bottom: 100px;
+    }
+    
+    #frame {
+        text-align: center;
+    }
+    
+    .image{
+        display: none;
+    }
+}

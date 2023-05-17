@@ -1,0 +1,151 @@
+#wall {
+    display: block;
+    padding-top: 150px;
+    text-align: center;
+}
+
+#frame {
+    text-align: center;
+    display: flex;
+    margin-top: 60px;
+    gap: 20px;
+}
+
+#cards {
+    box-shadow: 0px 1px 2px 0px #b0b0b0;
+}   
+
+.image{
+    align-items: center;
+    width: 100%;
+}
+
+#h2Style{
+    font-size: 65px;
+}
+
+#h3Style {
+    font-size: 30px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+    #wall {
+        background-color: aliceblue;
+        height: fit-content;
+    }
+    
+    #cards{
+        border-radius: 20px;
+        padding: 20px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    #frame {
+        display: block;
+        width: 100%;
+        text-align: center;
+        gap: 20px;
+        font-size: 16px;
+        margin-top: 30px;
+    }
+    
+    .image{
+        align-items: center;
+        width: 100%;
+    }
+
+    #h2Style{
+        font-size: 40px;
+    }
+
+    #h3Style{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    #wall {
+        height: fit-content;
+        padding-top: 200px;
+    }
+    
+    #cards{
+        border-radius: 20px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    
+    #frame {
+        display: block;
+        width: 100%;
+        margin-top: 60px;
+        text-align: center;
+        gap: 20px;
+        font-size: 20px;
+    }
+    
+    .image{
+        align-items: center;
+        width: 100%;
+    }
+
+    #h2Style {
+        font-size: 50px;
+    }
+    
+    #h3Style{
+        font-size: 25px;
+    }
+    
+    #pStyle{
+        margin-top: 10px;
+    }
+}
+
+
+@media only screen and (min-width: 993px) and (max-width: 1440px) {
+
+    #wall {
+        height: fit-content;
+        padding-top: 200px;
+    }
+    
+    #cards{
+        border-radius: 20px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    
+    #frame {
+        display: flex;
+        width: 100%;
+        margin-top: 60px;
+        text-align: center;
+        gap: 20px;
+        font-size: 20px;
+    }
+    
+    #h2Style {
+        font-size: 60px;
+    }
+    
+    #h3Style{
+        font-size: 25px;
+    }
+
+    #h4Style {
+        font-size: 22px;
+    }
+
+    #pStyle{
+        font-size: 18px;
+    }
+
+}

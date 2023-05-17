@@ -1,0 +1,16 @@
+#wall {
+    display: block;
+    background: linear-gradient(to top, #8cbff2df, #f0f8ff);
+    padding-top: 220px;
+    padding-bottom: 220px;
+}
+
+#frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+    color: black;
+}
