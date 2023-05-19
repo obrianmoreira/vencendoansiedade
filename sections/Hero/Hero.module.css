@@ -1,5 +1,5 @@
 #wall {
-    background: linear-gradient(to top, #eef7ff, #b0d5f9df);
+    background: linear-gradient(to top, #eef7ff, #5b97d3df);
     padding: 300px 0px 300px 0px;
 }
 
@@ -18,7 +18,7 @@
 @media only screen and (min-width: 320px) and (max-width: 576px) {
 
     #wall {
-        background: linear-gradient(to top, #eef7ff, #9fccfadf);
+        background: linear-gradient(to top, #eef7ff, #5b97d3df);
         padding: 200px 20px 100px 20px;
     }
 
@@ -30,7 +30,7 @@
 
 @media only screen and (min-width: 577px) and (max-width: 992px) {
     #wall {
-        background: linear-gradient(to top, #eef7ff, #9fccfadf);
+        background: linear-gradient(to top, #eef7ff, #5b97d3df);
         padding: 200px 70px 100px 70px;
     }
     
@@ -51,7 +51,7 @@
 @media only screen and (min-width: 993px) and (max-width: 1440px) {
 
     #wall {
-        background: linear-gradient(to top, #eef7ff, #9fccfadf);
+        background: linear-gradient(to top, #eef7ff, #5b97d3df);
         padding: 200px 70px 100px 70px;
     }
     

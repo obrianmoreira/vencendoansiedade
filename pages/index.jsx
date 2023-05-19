@@ -6,10 +6,12 @@ import Problem from '@/sections/Problem/problem'
 import { H1Text } from '@/components/Items/Texts/texts'
 import { Solution } from '@/sections/Solution/solution'
 import { Oportunity } from '@/sections/Oportunity/oportunity'
+import Fema from '../sections/Fema/fema';
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export default function Home({data}) {
+
   return (
     <>
       <Head>
@@ -24,6 +26,7 @@ export default function Home() {
         h2Text="Descubra o método surpreendente para aliviar os sintomas da ansiedade social sem uso de medicamentos."
           buttonText="Saber Mais"
         />
+        
         <Problem
           title="Ansiedade Social"
           subTitle="O que é & Sintomas"
@@ -48,3 +51,20 @@ export default function Home() {
     </>
   )
 }
+
+/*
+  <Fema data={data} />
+  export async function getServerSideProps () {
+
+  const res = await fetch("https://data.cdc.gov/resource/8pt5-q6wp.json");
+  const data = await res.json();
+
+  return {
+
+      props: {
+        data,
+      },
+
+  };
+
+}*/
