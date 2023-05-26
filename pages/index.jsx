@@ -1,12 +1,6 @@
-import Head from 'next/head'
 import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
-import Hero from '@/sections/Hero/hero'
-import Problem from '@/sections/Problem/problem'
-import { H1Text } from '@/components/Items/Texts/texts'
-import { Solution } from '@/sections/Solution/solution'
-import { Oportunity } from '@/sections/Oportunity/oportunity'
-import Fema from '../sections/Fema/fema';
+import Section from '../sections/form';
+import Head from 'next/head'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,31 +15,10 @@ export default function Home({data}) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Hero
-          h1Text="Como Superar a Ansiedade Social."
-        h2Text="Descubra o método surpreendente para aliviar os sintomas da ansiedade social sem uso de medicamentos."
-          buttonText="Saber Mais"
-        />
-        
-        <Problem
-          title="Ansiedade Social"
-          subTitle="O que é & Sintomas"
-        />
-        <Solution
-          title="Descubra a Solução Para Ansiedade Social"
-          subTitle="Como a Terapia Cognitivo Comportamental Pode Transformar Sua Vida!"
-          cardTitle="Como Funciona a TCC"
-          paragraph="A TCC é uma terapia psicológica baseada em evidências com resultados comprovados no tratamento da ansiedade social, pensamentos intrusivos e comportamentos disfuncionais. O tratamento envolve identificar pensamentos negativos e substituí-los por pensamentos mais realistas e positivos."
-          cardTitleTwo="Sem Medicamentos"
-          paragraphTwo=" A TCC também inclui exposição gradual a situações sociais temidas para ajudar o paciente a desenvolver habilidades sociais e reduzir a ansiedade. Estudos mostram que a TCC é um tratamento altamente eficaz para ansiedade social, assim como para outros transtornos, com taxas de sucesso superiores a 70%. "
-          cardTitleThree="Eficacia de 70%"
-          paragraphThree="Diferentemente dos medicamentos, a TCC oferece uma solução a longo prazo, ajudando os pacientes a desenvolver habilidades de enfrentamento e a superar a ansiedade social de forma permanente. Além disso, a TCC não tem efeitos colaterais e é uma opção segura para a maioria das pessoas."
-        />
-        <Oportunity
-          title="Como Começar?"
-          subTitle="Conheça As Sessões da TCC"
-          paragraph="Se você está sofrendo de ansiedade social, a TCC pode ajudá-lo a superar essa condição e melhorar sua qualidade de vida. O primeiro passo é encontrar um psicólogo especializado em TCC. Na maioria das vezes, a TCC é realizada em sessões semanais e pode durar de 12 a 20 semanas. Não deixe que a ansiedade social continue a afetar sua vida, agende uma consulta com um psicólogo hoje mesmo e comece sua jornada para uma vida mais feliz e saudável."
-          button="Falar Com Um Especialista Em TCC"
+        <Section
+          title="Pratique Inglês de graça Com Nossa Inteligência Artificial"
+          subTitle="Ao lado você encontra um formulário. Nele você pode decidir qual tipo de frase você quer (pergunta, negação, afirmação ou pergunta negando) e qual tempo verbal você deseja treinar. Com o clique no botão nossa inteligência artifiical vai gerar uma frase para você. No campo de texto em baixo, transforme em inglês a frase. Dependendo de sua resposta, nossa AI também vai dizer se você errou ou não ao apertar no botão de ver resultado. Resete caso queira reiniciar e criar uma frase nova. Com a prática você ficará um especialista em criar frases em inglês."
+          titleCard="Escolha as regras e tipos de frases que quer treinar abaixo"
         />
       </main>
     </>
@@ -53,6 +26,8 @@ export default function Home({data}) {
 }
 
 /*
+
+//
   <Fema data={data} />
   export async function getServerSideProps () {
 

@@ -7,9 +7,3 @@
     border-style: solid;
     padding: 20px;
 }   
-
-:hover.cardClass{
-    border: 20px;
-    background-color: #045e92;
-    color: white;
-}

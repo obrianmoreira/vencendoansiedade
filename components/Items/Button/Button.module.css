@@ -1,13 +1,12 @@
 .buttonStyle {
     font-size: 18px;
     color: white;
-    background-color: #045e92;
     padding: 8px 20px 8px 20px;
     border-radius: 5px;
     border-style: solid;
-    border-color: rgb(23, 117, 86);
+    background-color: #096fa9;
 }
 
 .buttonStyle:hover{
-    background-color: #096fa9;
+    background-color: #022c44;
 }
